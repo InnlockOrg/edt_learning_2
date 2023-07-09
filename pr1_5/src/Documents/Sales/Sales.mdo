@@ -23,8 +23,38 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Sales.Form.DocumentForm</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="23f06142-57c6-4e37-b02a-a2e0f4e082e6">
+    <name>TotalSum</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total sum</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4dcfa1a0-43fe-470c-9cb7-fd5c143af622">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="783e977a-ec1c-4ebd-b0f7-9166a92a53b4">
     <producedTypes>
       <objectType typeId="577bca22-dda3-4dd4-9346-312a01c7bd8a" valueTypeId="ae4489df-f9ce-4493-ac3e-837eb3c8e2d4"/>
